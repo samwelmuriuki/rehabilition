@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:forestgreen ;
+    /* margin: 1px auto 0; */
+}
+.header h1{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 1rem;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    /* gap: 0.2rem; */
+    
+}
+.navbar li{
+    display: flex;
+    list-style: none;
+    padding-right: 12rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+  }
+.navbar ul li a:hoover{
+    transition: 0.8sec;
+    color: grey;
+  }
+.main-content{
+    background-color: white;
+    margin: 74px 38px 56px 90px;
+    display: flex;
+    height: 90%;
+    width: 90%;
+    /* gap: 4rem; */
+}
+.main-content .left-content h1{
+    font-size: 4rem;
+    text-decoration: underline;
+    color: darkcyan;
+    gap: 1rem;
+}
+.main-content .left-content h2{
+    font-size: 4rem;
+    text-decoration: underline;
+    color: aqua;
+    gap: 1rem;
+}
+.main-content .left-content{
+    flex: 1;
+    text-align: center;
+    padding-top: 8rem;
+}
+.main-content .right-content{
+   flex: 1;
+}
+.footer{
+    display: block;
+    margin: 2px auto 0;
+    height: 20vh;
+  /* float: 1; */
+  align-items: center;
+  padding-left: 5rem;
+  /* margin: 0; */
+    
+}
