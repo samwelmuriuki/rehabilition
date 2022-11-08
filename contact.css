@@ -42,46 +42,44 @@ body{
     background-color: white;
     margin: 74px 38px 56px 90px;
     display: flex;
-    height: 90%;
+    height: 70vh;
     width: 90%;
     /* gap: 4rem; */
 }
-.main-content .left-content h1{
-    justify-content: space-between;
-    font-size: 2rem;
-    /* text-decoration: underline; */
-    color: darkcyan;
-    gap: 1rem;
-    /* padding-bottom: 1rem; */
-    padding-left: 1rem;
+.main-content{
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    height: 85vh;
+    /* transform: translate(-50%, -50%); */
 }
-.main-content .left-content h2{
-    justify-content: space-between;
-    font-size: 3rem;
-    /* text-decoration: underline; */
-    color: darkcyan;
-    gap: 1rem;
-    padding-bottom: 4rem;
-}
-.main-content .left-content p{
-    padding-left: 1rem;
-    font-size: 1.2rem;
-    /* text-decoration: underline; */
-    color: grey;
-    gap: 1rem;
-    padding-bottom: 3rem;
-}
-.main-content .left-content{
-    flex: 1;
-    text-align: center;
-    padding-top: 8rem;
-}
-.main-content .right-content{
-   flex: 1;
-   padding-top: 2rem;
-}
+.main-content form h1{
+   text-align: center;
+   margin: 40px 40px;
+ }
+.main-content form p{
+  margin: 15px 15px;
+  font-size: 20px;
+ }
+.main-content form input{
+  margin: 15px 10px;
+  font-size: 20px;
+  background-color: rgb(218, 209, 209);
 
-  .footer{
+ }
+.main-content form textarea{
+  margin: 15px 10px;
+  background-color: rgb(218, 209, 209);
+  
+ }
+.main-content form button{
+  margin: 15px 10px;
+  padding: 8px;
+  background-color: deepskyblue;
+  /* padding-left: 2rem; */
+  /* font-size: 20px; */
+ }
+  .footer{ 
     display: block;
     margin: 2px auto 0;
     height: 20vh;

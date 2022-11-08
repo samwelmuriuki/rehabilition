@@ -15,6 +15,9 @@ body{
     padding-top: 1rem;
 
 }
+.navbar{
+    height: 1.5vh;
+}
 .navbar ul{
     display: flex;
     list-style: none;
@@ -34,10 +37,22 @@ body{
     text-decoration: none;
     color: white;
   }
-.navbar ul li a:hoover{
+.navbar ul li a:hover{
     transition: 0.8sec;
     color: grey;
   }
+  .header .navbar ul li ul{
+    position: absolute;
+    /* left: 0; */
+    /* width: 100px; */
+    display: none ;
+    /* background-color: white; */
+ }
+ .header .navbar ul li:hover >ul{
+    display:initial;
+    /* background-color: grey; */
+    /* padding-bottom: 1rem; */
+ }
   .main-content{
     background-color: white;
     margin: 74px 38px 56px 90px;
@@ -69,12 +84,18 @@ body{
     /* text-decoration: underline; */
     color: grey;
     gap: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
+.main-content .left-content h3{
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    /* text-decoration: underline; */
+    color: aqua;
+  }
 .main-content .left-content{
     flex: 1;
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 0rem;
 }
 .main-content .right-content{
    flex: 1;

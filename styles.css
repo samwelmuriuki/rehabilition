@@ -7,12 +7,14 @@ body{
     background-color:forestgreen ;
     /* margin: 1px auto 0; */
 }
+
 .header h1{
     text-align: center;
     font-size: 2.5rem;
     text-transform: uppercase;
     color: white;
     padding-top: 1rem;
+    /* position: fixed; */
 
 }
 .navbar ul{
@@ -34,9 +36,10 @@ body{
     text-decoration: none;
     color: white;
   }
-.navbar ul li a:hoover{
-    transition: 0.8sec;
+.navbar ul li a:hover{
+    transition: -0.8sec;
     color: grey;
+text-decoration: underline;
   }
 .main-content{
     background-color: white;

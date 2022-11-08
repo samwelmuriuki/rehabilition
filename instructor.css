@@ -46,35 +46,16 @@ body{
     width: 90%;
     /* gap: 4rem; */
 }
-.main-content .left-content h1{
-    justify-content: space-between;
-    font-size: 2rem;
-    /* text-decoration: underline; */
-    color: darkcyan;
-    gap: 1rem;
-    /* padding-bottom: 1rem; */
-    padding-left: 1rem;
-}
-.main-content .left-content h2{
-    justify-content: space-between;
-    font-size: 3rem;
-    /* text-decoration: underline; */
-    color: darkcyan;
-    gap: 1rem;
-    padding-bottom: 4rem;
-}
-.main-content .left-content p{
-    padding-left: 1rem;
-    font-size: 1.2rem;
-    /* text-decoration: underline; */
-    color: grey;
-    gap: 1rem;
-    padding-bottom: 3rem;
-}
+
 .main-content .left-content{
     flex: 1;
-    text-align: center;
-    padding-top: 8rem;
+    column-count: 2;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    /* display: grid; */
+    /* text-align: center; */
+    /* border: 1px solid blue; */
+    
 }
 .main-content .right-content{
    flex: 1;
