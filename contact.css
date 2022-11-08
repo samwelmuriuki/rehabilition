@@ -40,36 +40,29 @@ body{
   }
   .main-content{
     background-color: white;
-    margin: 74px 38px 56px 90px;
+    margin: 74px 38px 46px 90px;
     display: flex;
-    height: 70vh;
+    height: 90vh;
     width: 90%;
     /* gap: 4rem; */
-}
-.main-content{
-    /* position: absolute; */
-    top: 50%;
-    left: 50%;
-    height: 85vh;
-    /* transform: translate(-50%, -50%); */
 }
 .main-content form h1{
    text-align: center;
    margin: 40px 40px;
  }
 .main-content form p{
-  margin: 15px 15px;
+  margin: 10px 10px;
   font-size: 20px;
  }
 .main-content form input{
-  margin: 15px 10px;
+  margin: 10px 10px;
   font-size: 20px;
   background-color: rgb(218, 209, 209);
 
  }
 .main-content form textarea{
-  margin: 15px 10px;
-  background-color: rgb(218, 209, 209);
+  margin: 10px 10px;
+  background-color: rgb(128, 117, 117);
   
  }
 .main-content form button{
